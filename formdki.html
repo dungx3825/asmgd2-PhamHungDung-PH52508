@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            width: 40%;
+    height: 500px ;
+    background-color: beige;
+    margin: 0 auto;
+    border-radius: 3%;
+box-shadow: 5px 5px 10px gray;
+padding: 10px ;
+        }
+    .form #phd {
+    background-color: blanchedalmond;
+    border: 5%;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+ .form #phd:hover {
+    background-color: wheat;
+ }
+ .form #haha {
+    background-color: blanchedalmond;
+    border: 5%;
+    border-radius: 10%;
+}
+ .form #haha:hover {
+    background-color: wheat;
+}
+.H1{
+color: darkolivegreen;
+}
+    </style>
+
+</head>
+<body>
+    <center><H1>Form Liên Hệ</H1></center>
+    <form class="form" action="" method="post">
+        Họ và tên: 
+        <input type="text" name="" id="" placeholder="Nguyen Van A"> <br>
+        Giới tính:
+<label for="">
+    <input type="radio" name="gender" id="">Nam
+    <input type="radio" name="gender" id="">Nữ
+</label><br>
+Địa chỉ: 
+<select name="city" id="">
+    <option value="1">Ha noi</option>
+    <option value="2">Hai Phong</option>
+    <option value="3">Hue</option>
+    <option value="4">Tp.HCM</option>
+    <option value="5">Cao Bang</option>
+    <option value="6">Ca Mau</option>
+    <option value="7">Quang Ninh</option>
+    <option value="8">Vinh Phuc</option>
+    <option value="9">Ha Nam</option>
+    <option value="10">Da Nang</option>
+    </select>
+     <br>
+</select><br>
+Số Điện Thoại: <input type="number" placeholder="Number"><br>
+Email: <input type="email" placeholder="abc@gmail.com"><br>
+   
+    Sở thích:
+    <label for="">
+        <input type="checkbox" name="" id="" > Thể Thao
+    </label>
+    <label for="">
+        <input type="checkbox" name="" id="" > Du lịch
+    </label>
+    <label for="">
+        <input type="checkbox" name="" id="" > Xem phim
+    </label>
+    <label for="">
+        <input type="checkbox" name="" id="" > Học tập
+    </label><br>
+    Ghi chú: <br>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Abc"></textarea><br>
+    <hr>
+    <input id="haha" type="Reset" value="Reset" >
+    <input id="phd" type="Submit" value="Submit" >
+</form>
+</body>
+</html>
